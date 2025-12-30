@@ -1,0 +1,332 @@
+/* Modern CSS Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* including default dark mode colors*/
+:root {
+    --color-primary: #0d80ae;
+    --color-primary-hover: #0e88b8;
+    /* --button-color-secondary: rgb(18, 16, 14); */
+    --bg-header: rgba(15, 16, 18, 0.75);
+    --bg-primary: #15161a;
+    --color-surface: rgba(91, 143, 233, 0.05);
+    --color-border: rgba(177, 192, 255, 0.07);
+    --header-border: rgba(206, 227, 255, 0.1);
+    --border-cta-card: rgba(177, 216, 255, 0.25);
+    --color-border-boost: rgba(177, 192, 255, 0.25);
+    --bg-body: #0f1012;
+    --stat-color: #2896c2;
+    --stat-color: #eef6f9;
+    --color-insight: #1a1a1d;
+    --bg-cta-card: rgba(155, 176, 224, 0.075);
+    --color-border-dialog: rgba(177, 192, 255, 0.25);
+    --text-gradient-start: white;
+    --text-gradient-end: #0d80ae;
+    --color-feature-icon-background: rgba(102, 143, 225, 0.15);
+    --accent-bg-brown: #15161a;
+    --accent-text-blue: rgba(255, 255, 255, 0.9);
+    --card-bg-primary: linear-gradient(rgba(155, 176, 224, 0.075));
+    --card-bg-color-primary: rgba(155, 176, 224, 0.075);
+    --text-subtle: rgba(206, 219, 229, 0.9);
+    --text-highcontrast: rgb(231, 239, 243);
+    --bg-blue-alternate: #1c2126;
+    --bg-dialog: #141416;
+    --bg-primary-subtle: rgba(114, 192, 255, 0.05);
+    --bg-footer: #0f1012;
+    --bg-cta: rgb(17, 32, 49);
+    --shadow-smooth: 2px 3px 1rem rgba(0, 0, 0, 0.05);
+    --shadow-smooth-strong: 0 2px 10px rgba(0, 0, 0, 0.075);
+    --bg-link-hover: #282a2f;
+    --bg-footer-branding-text: linear-gradient(to bottom,
+            rgba(124, 175, 238, 0.1) 0%,
+            transparent 100%);
+    --icon-primary: #1590c1;
+    --logo-filter: grayscale(100%) brightness(0) invert(1);
+    /* --bg-hero-box: rgba(18, 41, 49, 0.8); */
+    --bg-hero-box-shadow: 2px 3px 1rem rgba(0, 0, 0, 0.1);
+    /* --gradient-subpage-hero-img: rgba(0, 0, 0, 0.25); */
+    --text-highcontrast-black: #1112151rem 1rem;
+    --bg-backdrop: rgba(13, 128, 174, 0.33);
+    --bg-notification: rgba(0, 0, 0, 0.25);
+    --stat-bg: #0e506b;
+    --shadow-cta: none;
+    --button-bg: #0d80ae;
+    --button-bg-hover: #0e88b8;
+    --button-padding: 0.75rem 2rem;
+    --bg-contact: #191c1f;
+    --bg-hero: rgb(17, 32, 49);
+
+
+    /* Typography */
+    --font-headings: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-mono: 'SF Mono', Monaco, Consolas, 'Courier New', monospace;
+    /* --font-text: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    --font-text: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    /* Font sizes */
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-smaller: 0.9375rem;
+    --text-normal: 1rem;
+    --text-base: 1.0625rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+    --headings-mobile: 1.625rem;
+    --headings-tablet: 2.25rem;
+    --headings-laptop: 2.5rem;
+
+    /* Line heights */
+    --leading-tight: 1.25;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.75;
+
+    /* border radius */
+    --radius-primary: 1rem;
+    --radius-full: 9999px;
+
+    /* corner shape */
+    --corner-primary: superellipse(1.5);
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-md: 0 4px 10px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+    /* Transitions */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Container widths */
+    --container-sm: 640px;
+    --container-md: 768px;
+    --container-lg: 1024px;
+    --container-xl: 1280px;
+    --container-2xl: 1536px;
+}
+
+[data-theme="light"] {
+    /* --color-primary: #557beb; */
+    --color-primary: #0d80ae;
+    --color-primary-hover: #0e88b8;
+    --bg-body: white;
+    --button-color-secondary: white;
+    --color-background-dialog: rgb(241, 244, 250);
+    --bg-header: rgb(255, 255, 255);
+    --header-border: rgb(255, 255, 255);
+    --bg-primary: #eef6f9;
+    --bg-primary: #e8f5f8;
+    --color-border: white;
+    --color-border-boost: rgba(255, 255, 255, 0.75);
+    --border-cta-card: rgb(255, 255, 255);
+    --color-success: #10b981;
+    --color-error: #ef4444;
+    --color-warning: #f59e0b;
+    --stat-color: #0d80ae;
+    --stat-color: #eef6f9;
+    --color-insight: white;
+    --bg-cta-card: rgb(255, 255, 255);
+    --color-border-dialog: transparent;
+    --text-gradient-start: #0a6488;
+    --text-gradient-end: #2fabdc;
+    --accent-bg-brown: #efeae3;
+    --text-subtle: rgba(15, 18, 20, 0.9);
+    --card-bg-primary: white;
+    --card-bg-color-primary: white;
+    --text-highcontrast: #111215;
+    --bg-blue-alternate: rgb(222, 232, 242);
+    --bg-dialog: white;
+    --bg-primary-subtle: rgba(121, 201, 244, 0.1);
+    --bg-footer: white;
+    --bg-cta: #c2e5f0;
+    --bg-link-hover: rgba(178, 206, 237, 0.25);
+    --bg-footer-branding-text: linear-gradient(to bottom,
+            rgb(201, 231, 242) 0%,
+            transparent 100%);
+    --logo-filter: grayscale(100%) brightness(0);
+    /* --bg-hero-box: #eef6f9; */
+    /* --gradient-subpage-hero-img: rgba(255, 255, 255, 0.4); */
+    --bg-notification: rgba(255, 255, 255, 0.5);
+    --stat-bg: #1a7193;
+    --shadow-cta: 2px 3px 2rem rgba(0, 0, 0, 0.1);
+    --bg-contact: #daebf0;
+    --bg-hero: #e8f5f8;
+
+}
+
+[data-theme="light"] .logoimage {
+    filter: invert(1);
+}
+
+[data-theme="light"] .brand-logo img {
+    filter: invert(1);
+}
+
+/* HTML & Body */
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: var(--text-base);
+    line-height: var(--leading-normal);
+    color: var(--color-text);
+    background-color: var(--bg-body);
+    min-height: 100vh;
+    font-weight: normal;
+    font-style: normal;
+    font-optical-sizing: auto;
+    letter-spacing: 0.02em;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans 3', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: var(--leading-tight);
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: normal;
+    font-weight: bolder;
+    letter-spacing: -0.01em;
+}
+
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1.25em;
+    letter-spacing: 0.02em;
+    font-weight: normal;
+}
+
+strong,
+b {
+    font-weight: 600;
+}
+
+a {
+    color: var(--text-highcontrast);
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    background-color: var(--icon-primary);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--text-subtle);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+label {
+    display: block;
+    font-size: var(--text-sm);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: var(--text-highcontrast);
+}
+
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 3rem 0;
+}
+
+::selection {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+::-moz-selection {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+*:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+.container {
+    width: 100%;
+    max-width: var(--container-xl);
+    margin: 0 auto;
+}
