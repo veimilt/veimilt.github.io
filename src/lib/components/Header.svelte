@@ -555,7 +555,7 @@
     right: 1rem;
     /* background-color: var(--bg-primary-subtle); */
     border-radius: 10px;
-    font-size: 1.375rem;
+    font-size: 1.5rem;
     padding: 1rem;
   }
 
@@ -687,10 +687,11 @@
     color: var(--text-highcontrast);
     text-decoration: none;
     font-weight: 500;
-    font-size: var(--text-base);
+    font-size: var(--text-lg);
     border-radius: var(--radius-full);
     transition: all var(--transition-fast);
     gap: 1rem;
+    letter-spacing: 0.02em;
   }
 
   .mobile-dropdown-wrapper {

@@ -38,7 +38,7 @@
         <div class="cta-card">
             <div class="cta-content">
                 <h2 class="cta-title">
-                    Ruvetaanko töihin? Suomen suurimmat yritykset luottavat
+                    Ruvetaanko töihin?<br>Suomen suurimmat yritykset luottavat
                     meihin.
                 </h2>
                 <p class="cta-description">
@@ -117,7 +117,7 @@
     }
 
     .cta-content {
-        padding: 3rem 2rem;
+        padding: 3rem 1rem;
         padding-top: 2.5rem;
         text-align: center;
         position: relative;
@@ -125,7 +125,7 @@
     }
 
     .cta-title {
-        font-size: var(--headings-mobile);
+        font-size: 1.75rem;
         font-weight: 700;
         line-height: var(--leading-tight);
         color: var(--text-highcontrast);
