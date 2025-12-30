@@ -89,20 +89,6 @@
         background-color: var(--bg-footer);
     }
 
-    footer p {
-        font-family:
-            system-ui,
-            -apple-system,
-            BlinkMacSystemFont,
-            "Segoe UI",
-            Roboto,
-            Oxygen,
-            Ubuntu,
-            Cantarell,
-            "Open Sans",
-            "Helvetica Neue",
-            sans-serif;
-    }
     .container {
         max-width: var(--container-xl);
         margin: 0 auto;
