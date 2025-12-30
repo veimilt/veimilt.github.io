@@ -103,7 +103,6 @@
         }
 
         .logo-section {
-            padding: 5rem 0;
         }
 
         .logo-grid {

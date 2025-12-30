@@ -266,9 +266,7 @@
 
     @media (min-width: 1024px) {
         .features {
-            padding: 3rem 0;
-            padding-bottom: 7rem;
-            padding-top: 6rem;
+            padding: 7rem 0;
         }
 
         .features-title {
@@ -278,7 +276,7 @@
         .intro-text p {
             font-size: var(--text-xl);
         }
-        
+
         .container {
             padding: 0 2rem;
         }
