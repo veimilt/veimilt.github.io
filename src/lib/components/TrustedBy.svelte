@@ -27,8 +27,6 @@
     .logo-section {
         width: 100%;
         padding: 3rem 0;
-        padding-bottom: 4rem;
-        background-color: var(--bg-logos);
     }
 
     .logo-container {
