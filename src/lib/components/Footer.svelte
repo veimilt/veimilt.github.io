@@ -85,21 +85,19 @@
 <style>
     footer {
         width: 100%;
-        border-top: 1px solid var(--color-border);
         background-color: var(--bg-footer);
     }
 
     .container {
         max-width: var(--container-xl);
         margin: 0 auto;
-        padding: 2rem;
-        padding-top: 5rem;
+        padding: 4rem 2rem;
     }
 
     .footer-content {
         display: flex;
         flex-direction: column;
-        gap: 3rem;
+        gap: 1.5rem;
     }
 
     .footer-branding {
@@ -259,6 +257,10 @@
             flex-direction: row;
             align-items: flex-start;
             justify-content: space-between;
+        }
+
+        .container{
+            padding-bottom: 2rem;
         }
         .container-footer-bottom {
             padding-top: 2rem;
