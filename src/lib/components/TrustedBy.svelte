@@ -26,7 +26,7 @@
     .logo-section {
         width: 100%;
         padding-top: 3rem;
-        padding-bottom: 2rem;
+        padding-bottom: 0.5rem;
     }
 
     .logo-container {
@@ -95,7 +95,7 @@
 
     @media (min-width: 1024px) {
         .logo-section {
-            padding: 3rem 0;
+            padding-bottom: 1.5rem;
         }
         .logo-label {
             font-size: var(--text-base);
