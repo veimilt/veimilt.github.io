@@ -290,7 +290,7 @@
   </div>
 </header>
 
-<dialog bind:this={mobileDialog} closedby="any">
+<!-- <dialog bind:this={mobileDialog} closedby="any">
   <button class="navlink closebtn" onclick={closeMobileMenu}>&#x2715;</button>
   <nav class="mobile-nav">
     <a class="mobile-navlink" href="/" onclick={closeMobileMenu}>Etusivu</a>
@@ -435,7 +435,7 @@
       onclick={closeMobileMenu}>Aloita nyt</a
     >
   </nav>
-</dialog>
+</dialog> -->
 
 <style>
   header {
