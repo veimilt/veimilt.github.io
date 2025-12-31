@@ -74,19 +74,19 @@
         justify-content: center;
         max-width: 200px;
         height: 100%;
-        padding: 2.25rem;
+        padding: 2rem;
         user-select: none;
         pointer-events: none;
     }
     .logo-wrapper:nth-child(2),
     .logo-wrapper:nth-child(3),
     .logo-wrapper:nth-child(4) {
-        padding: 2.5rem 3.5rem;
+        padding: 3rem;
     }
 
     .logo-wrapper:nth-child(4) {
-        padding: 2.375rem 3.375rem;
-        padding-bottom: 2.75rem;
+        padding: 2.75rem;
+        padding-bottom: 3.25rem;
     }
 
     .logo-wrapper img {
