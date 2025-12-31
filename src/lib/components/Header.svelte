@@ -445,7 +445,6 @@
     z-index: 1020;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.075);
     background-color: var(--bg-header);
-    backdrop-filter: blur(50px);
   }
 
   .container {

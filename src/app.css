@@ -12,7 +12,7 @@
     --color-primary: #0d80ae;
     --color-primary-hover: #0e88b8;
     /* --button-color-secondary: rgb(18, 16, 14); */
-    --bg-header: rgba(15, 16, 18, 0.75);
+    --bg-header: rgb(15, 16, 18);
     --bg-primary: rgb(18, 20, 23);
     --color-surface: rgba(91, 143, 233, 0.05);
     --color-border: rgba(177, 192, 255, 0.07);
