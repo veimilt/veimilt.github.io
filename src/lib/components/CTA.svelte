@@ -82,7 +82,6 @@
         position: relative;
         width: 100%;
         padding: 4rem 0;
-        overflow: hidden;
         background-image: linear-gradient(var(--bg-primary), var(--bg-cta));
         /* background-image: linear-gradient(rgba(127, 166, 230, 0.05)); */
     }

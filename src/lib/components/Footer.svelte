@@ -218,7 +218,6 @@
 
     .footer-branding-large {
         width: 100%;
-        overflow: hidden;
         padding: 3rem 0 2rem 0;
         position: relative;
     }

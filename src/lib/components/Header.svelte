@@ -663,7 +663,6 @@
     border-radius: var(--radius-primary);
     background-color: var(--bg-dialog);
     box-shadow: var(--shadow-xl);
-    overflow: auto;
     border: 1px solid var(--color-border-dialog);
   }
 
@@ -711,7 +710,6 @@
     flex-direction: column;
     padding-left: 0.75rem;
     padding-top: 0.25rem;
-    overflow: hidden;
   }
 
   .mobile-dropdown-menu.open {
