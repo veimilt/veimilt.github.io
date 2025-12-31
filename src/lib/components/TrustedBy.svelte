@@ -27,6 +27,7 @@
     .logo-section {
         width: 100%;
         padding: 3rem 0;
+        padding-bottom: 2rem;
     }
 
     .logo-container {
@@ -61,7 +62,7 @@
     .logo-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        padding: 1rem;
         width: fit-content;
         align-items: center;
         justify-items: center;
@@ -75,14 +76,14 @@
         justify-content: center;
         max-width: 200px;
         height: 100%;
-        padding: 2rem;
+        padding: 2.25rem;
         user-select: none;
         pointer-events: none;
     }
     .logo-wrapper:nth-child(2),
     .logo-wrapper:nth-child(3),
     .logo-wrapper:nth-child(4) {
-        padding: 2rem 3rem;
+        padding: 2.25rem 3.5rem;
     }
 
     .logo-wrapper:nth-child(4) {
