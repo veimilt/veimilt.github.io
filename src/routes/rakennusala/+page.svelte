@@ -68,6 +68,7 @@
     name="description"
     content="Lue kuinka Kokousvahti auttaa rakennus- ja infrastruktuurialan päätöksenteossa"
   />
+  <link rel="preload" as="image" href="/bg/pisarat.webp" fetchpriority="high" />
 </svelte:head>
 
 <section class="hero-container">

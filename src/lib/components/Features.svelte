@@ -121,14 +121,11 @@
     .features {
         width: 100%;
         padding: 4rem 0;
-
         background-color: var(--accent-bg-brown);
-        border-top: 1px solid var(--color-border);
-        /* vikalla mennään */
     }
 
     .container {
-        max-width: 82rem; /* 1152px - between lg and xl */
+        max-width: var(--container-xl);
         margin: 0 auto;
         padding: 0 1rem;
     }
@@ -138,6 +135,7 @@
         flex-direction: column;
         gap: 1rem;
         margin-bottom: 1.5rem;
+        margin-left: 0.5rem;
     }
 
     .features-title {
@@ -158,6 +156,7 @@
     .intro-text {
         position: relative;
         grid-column: 1 / -1;
+        margin-left: 0.5rem;
     }
 
     .intro-text p {
@@ -267,6 +266,7 @@
     @media (min-width: 1024px) {
         .features {
             padding: 7rem 0;
+            padding-bottom: 8rem;
         }
 
         .features-title {

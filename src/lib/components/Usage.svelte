@@ -30,17 +30,17 @@
         {
           text: "On budjetoinut 2 miljoonaa euroa tekoälykehitykseen",
           status: "high",
-          action: "Ymmärrä",
+          action: "Ymmärrä:",
         },
         {
           text: "Valmistelee suuren rakennushankkeen kilpailutusta",
           status: "medium",
-          action: "Vaikuta",
+          action: "Vaikuta:",
         },
         {
           text: "Valmistelee uuden vanhusten asumisyksikön avaamista",
           status: "ready",
-          action: "Voita",
+          action: "Voita:",
         },
       ],
     },

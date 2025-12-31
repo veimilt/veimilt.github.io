@@ -92,7 +92,8 @@
     .container {
         max-width: var(--container-xl);
         margin: 0 auto;
-        padding: 4rem 2rem;
+        padding: 2rem;
+        padding-top: 5rem;
     }
 
     .footer-content {

@@ -14,6 +14,18 @@
         name="description"
         content="Kokousvahti - Voita julkisen sektorin hankinnat ennen niiden julkaisua"
     />
+    <link
+        rel="preload"
+        as="image"
+        href="/images/kokousvahti_logo.webp"
+        fetchpriority="high"
+    />
+    <link
+        rel="preload"
+        as="image"
+        href="/images/kartta.webp"
+        fetchpriority="high"
+    />
 </svelte:head>
 
 <Hero />

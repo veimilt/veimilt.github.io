@@ -26,9 +26,9 @@
 <style>
     .logo-section {
         width: 100%;
-        padding: 3rem 0 1rem 0;
-        padding-bottom: 2rem;
-        background-color: var(--bg-hero);
+        padding: 3rem 1rem;
+        padding-bottom: 4rem;
+        background-color: var(--bg-logos);
     }
 
     .logo-container {
@@ -100,9 +100,6 @@
     @media (min-width: 1024px) {
         .logo-label {
             font-size: var(--text-base);
-        }
-
-        .logo-section {
         }
 
         .logo-grid {

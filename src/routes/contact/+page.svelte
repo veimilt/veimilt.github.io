@@ -8,6 +8,7 @@
     name="description"
     content="Ota meihin yhteyttä"
   />
+  <link rel="preload" as="image" href="/images/kokousvahti.webp" fetchpriority="high">
 </svelte:head>
 
 <Contact

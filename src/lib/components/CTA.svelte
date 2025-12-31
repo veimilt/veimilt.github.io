@@ -38,7 +38,7 @@
         <div class="cta-card">
             <div class="cta-content">
                 <h2 class="cta-title">
-                    Ruvetaanko töihin?<br>Suomen suurimmat yritykset luottavat
+                    Ruvetaanko töihin? Suomen suurimmat yritykset luottavat
                     meihin.
                 </h2>
                 <p class="cta-description">

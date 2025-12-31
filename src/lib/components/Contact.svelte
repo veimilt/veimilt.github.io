@@ -47,7 +47,12 @@
             </div>
 
             <div class="contact-image">
-                <img src="/images/kokousvahti.webp" alt="kokousvahti contact" />
+                <img
+                    src="/images/kokousvahti.webp"
+                    alt="kokousvahti contact"
+                    width="1024"
+                    height="1024"
+                />
             </div>
         </div>
     </div>
@@ -99,11 +104,26 @@
     a {
         color: var(--text-highcontrast);
         font-weight: normal;
-        font-family: 'Manrope', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: fit-content;
+        font-family:
+            "Manrope",
+            system-ui,
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            Oxygen,
+            Ubuntu,
+            Cantarell,
+            "Open Sans",
+            "Helvetica Neue",
+            sans-serif;
     }
 
-    a:hover {
-        color: var(--icon-primary);
+    a:hover,
+    a:active {
+        background-color: var(--color-primary-hover);
+        color: white;
     }
 
     .puh-reverse {
@@ -114,6 +134,7 @@
     .label {
         font-size: var(--text-smaller);
         font-weight: 500;
+        color: var(--text-subtle);
     }
 
     .contact-image {
@@ -126,7 +147,6 @@
 
     .contact-image img {
         width: 100%;
-        height: 100%;
         object-fit: cover;
     }
 
@@ -139,9 +159,11 @@
         .contact-content {
             gap: 1.5rem;
         }
+    }
 
+    @media (min-width: 1024px) {
         .contact-info {
-            width: 40%;
+            width: 45%;
             padding: 3rem;
             font-size: var(--text-xl);
         }

@@ -80,7 +80,8 @@
     width: 100%;
     margin: 0 auto;
     /* background: var(--card-bg-primary); */
-    padding: 3rem;
+    padding: 2rem 3rem;
+    padding-top: 0rem;
     /* box-shadow: 2px 4px 1rem rgba(0, 0, 0, 0.075);
     border-radius: var(--radius-primary);
     border: 1px solid var(--color-border);
@@ -141,6 +142,7 @@
 
     .container {
       padding: 3rem 4rem;
+      padding-top: 2rem;
     }
 
     .stats-grid {
