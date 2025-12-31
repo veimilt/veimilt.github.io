@@ -47,7 +47,7 @@
 <style>
     .image-text-section {
         width: 100%;
-        background-color: var(--bg-header);
+        background-color: var(--bg-primary);
         padding: 4rem 0;
     }
 

@@ -50,7 +50,7 @@
     .page-content:nth-child(1),
     .page-content:nth-child(2),
     .page-content:nth-child(5) {
-        background: var(--bg-header);
+        background: var(--card-bg-primary);
     }
 
     .chapters {
