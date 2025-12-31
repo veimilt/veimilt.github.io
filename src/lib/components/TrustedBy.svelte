@@ -1,4 +1,3 @@
-
 <section class="logo-section">
     <div class="logo-container">
         <p class="logo-label">Palveluihimme luottavat</p>
@@ -26,7 +25,7 @@
 <style>
     .logo-section {
         width: 100%;
-        padding: 3rem 0;
+        padding-top: 3rem;
         padding-bottom: 2rem;
     }
 
@@ -82,12 +81,12 @@
     .logo-wrapper:nth-child(2),
     .logo-wrapper:nth-child(3),
     .logo-wrapper:nth-child(4) {
-        padding: 2.25rem 3.5rem;
+        padding: 2.5rem 3.5rem;
     }
 
     .logo-wrapper:nth-child(4) {
-        padding: 2rem 3rem;
-        padding-bottom: 2.5rem;
+        padding: 2.375rem 3.375rem;
+        padding-bottom: 2.75rem;
     }
 
     .logo-wrapper img {
@@ -95,6 +94,9 @@
     }
 
     @media (min-width: 1024px) {
+        .logo-section {
+            padding: 3rem 0;
+        }
         .logo-label {
             font-size: var(--text-base);
         }
