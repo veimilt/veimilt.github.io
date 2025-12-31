@@ -26,7 +26,7 @@
 <style>
     .logo-section {
         width: 100%;
-        padding: 3rem 1rem;
+        padding: 3rem 0;
         padding-bottom: 4rem;
         background-color: var(--bg-logos);
     }
@@ -37,7 +37,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0 1rem;
         gap: 1rem;
     }
 
